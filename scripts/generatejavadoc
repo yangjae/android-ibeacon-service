@@ -1,2 +1,2 @@
 #!/bin/sh
-javadoc -d ../doc -sourcepath ../src -subpackages com 
+javadoc -classpath "../AndroidIBeaconService/libs/android-support-v4.jar:/Users/dyoung/sdk/platforms/android-18/android.jar" -d ../doc -sourcepath ../../AndroidIBeaconService/src -subpackages com.radiusnetworks
