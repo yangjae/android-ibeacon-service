@@ -145,13 +145,6 @@ img {
   max-width: 739px;
   padding: 5px;
   margin: 10px 0 10px 0;
-  border: 1px solid #ebebeb;
-
-  box-shadow: 0 0 5px #ebebeb;
-  -webkit-box-shadow: 0 0 5px #ebebeb;
-  -moz-box-shadow: 0 0 5px #ebebeb;
-  -o-box-shadow: 0 0 5px #ebebeb;
-  -ms-box-shadow: 0 0 5px #ebebeb;
 }
 
 pre, code {
@@ -321,10 +314,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 
 #downloads {
-  position: absolute;
   width: 210px;
   z-index: 10;
-  bottom: -40px;
+  bottom: -80px;
   right: 0;
   height: 70px;
   background: none;
@@ -375,7 +367,33 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   background: #212121;
 }
 
+.btn-rad-blue {
+  background: #3dbeee;
+  border-radius: 4px;
+  border: 1px solid #3dbeee;
+  color: #fff;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 5px 0;
+  padding: 5px 10px;
+  text-decoration: none;
+  text-shadow: #3dbeee 0 0 5px;
+  text-transform: uppercase;
+  transition: .5s; }
+  .btn-rad-blue:hover {
+    color: #fff;
+    background: rgba(61, 190, 238, 0.5); }
 
+.ibeacon{
+  width: 30%;
+}
+
+.pull-right {
+  padding-top: 20px;
+  width: 400px;
+  float:  right;
+}
 
 /*******************************************************************************
 Small Device Styles
