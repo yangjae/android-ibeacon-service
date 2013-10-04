@@ -313,7 +313,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 
 #project_tagline {
-  color: #333;
+  color: #999;
   font-size: 24px;
   font-weight: 300;
   background: none;
@@ -330,6 +330,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 
 .zip_download_link {
+  margin-top: -10px;
   display: block;
   float: right;
   width: 90px;
@@ -340,6 +341,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 
 .tar_download_link {
+  margin-top: -10px;
   display: block;
   float: right;
   width: 90px;
