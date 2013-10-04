@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 10px 0;
   font-weight: 700;
   color:#222222;
-  font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
+  font-family:  Helvetica, Arial, sans-serif;
   letter-spacing: -1px;
 }
 
@@ -313,11 +313,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 
 #project_tagline {
-  color: #fff;
+  color: #333;
   font-size: 24px;
   font-weight: 300;
   background: none;
-  text-shadow: #111 0px 0px 10px;
 }
 
 #downloads {
@@ -327,7 +326,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   bottom: -40px;
   right: 0;
   height: 70px;
-  background: url('../images/icon_download.png') no-repeat 0% 90%;
+  background: none;
 }
 
 .zip_download_link {
