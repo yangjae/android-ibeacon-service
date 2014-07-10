@@ -42,7 +42,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:0.10.+'
+        classpath 'com.android.tools.build:gradle:0.12.+'
         classpath 'com.jakewharton.sdkmanager:gradle-plugin:0.10.+'
         classpath 'org.robolectric.gradle:gradle-android-test-plugin:0.10.+'
     }
